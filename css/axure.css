@@ -1,0 +1,26 @@
+.axure {
+    background-image: url(../image/background.png);
+    padding: 58px 0 38px 0;
+}
+.axure-wrap {
+    margin: 0 -15px;
+    z-index: 1;
+    position: relative; 
+}
+
+.title--color{
+    color: rgba(255, 255, 255, 1);
+}
+.title--color::after{
+    background-color: rgba(255, 255, 255, 1);  
+}
+.section__text--size {
+    margin-bottom: 57px;
+ }
+ 
+ .section__text--size p {
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 18px;
+     color: rgba(255, 255, 255, 0.8);  
+ }

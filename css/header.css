@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 20px 0;
+}
+.header-wrap {
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.header-wrap-logo {
+    margin: 0 15px;
+}
+.header-wrap-logo a {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.header-wrap-logo a::after {
+    content: "it";
+    color: rgba(236, 121, 121, 1);
+}
+.header-navigation {
+    margin: 0 15px;
+}
+.header-navigation-list {
+    width: 489px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-navigation-list-item a{
+    color:#FFFFFF;  
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,69 @@
+.social {
+  background-color: rgba(248, 239, 239, 1);
+}
+.social-wrap {
+    margin: 0 -15px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+.social-wrap-left {
+    display: flex;
+    flex-direction: column;
+    width: 365px;
+    margin: 0 15px;
+}
+.social-tittle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 14px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.social-wrap-text p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(134, 135, 139, 1);
+}
+
+.social-navigation {
+    flex-grow: 1;
+    max-width: 684px;
+    margin: 0 15px;
+}
+.social-navigation-list {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.social-navigation-list-item i {
+    color:  rgba(189, 189, 189, 1);
+    font-size: 42px;
+}
+
+.fa-facebook-f:hover {
+    color: rgb(46, 170, 237);
+    transition: 0.5s;
+    transform: scale(1.5) rotate(360deg);
+    box-shadow: 8px -8px 7px  rgb(138, 201, 235);;
+}
+
+
+.fa-twitter:hover {
+    color: rgb(237, 119, 50);
+    transition: 0.5s;
+    transform: scale(0.5)
+}
+
+.fa-google-plus-g:hover {
+    transform: skew(-20deg) scale(2);
+
+}
+.fa-pinterest:hover {
+    transform: scale(-2);
+    transition: 2s;
+    color: rgb(234, 74, 49);
+}

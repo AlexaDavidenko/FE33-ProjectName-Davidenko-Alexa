@@ -1,46 +1,55 @@
 .pricing {
-    background-color: #F5F5F5;
-    padding-top: 80px;
-    padding-bottom: 59px;
+    padding: 80px 0;
+    background-color: rgba(245, 245, 245, 1);
 }
-
-.prising-wrapper {
+.pricing-wrap {
     display: flex;
     justify-content:space-between;
-    margin-bottom: 44px;   
+    flex-wrap: wrap;
+    margin: 0 -15px;
 }
-.prising-wrapper .prising-wrapper-item--black {
-    background-color: #333333;
-    color: white;
-    margin-top: 2px;  
-}
-.prising-wrapper-item {
+
+.pricing-wrap-item {
     width: 340px;
+    margin: 0 15px;
 }
-.prising-wrapper li {
-    text-align: center; 
-    width: 100%;
-    line-height: 40px;
-    margin-top: 4px;   
+.pricing-wrap-item:last-child {
+    margin-bottom: 0;
+}
+.pricing-wrap__list-item {
+    background-color: rgba(255, 255, 255, 1);
     color: rgba(134, 135, 139, 1);
-    background-color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 4px;
 }
-.prising-wrapper .prising-wrapper-item__one {
+.pricing-wrap-item--translate:hover {
+    transform: translate(-10px, -10px);
+    transition: 0.4s;
+}
+.pricing-wrap__list-item--black {
+    background-color: rgba(51, 51, 51, 1);
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 2px;
+}
+.pricing-wrap__list-item--tarif {
     font-weight: 700;
     font-size: 20px;
     line-height: 50px;
+    
 }
-
-.prising-wrapper .prising-wrapper-item__two {
+.pricing-wrap__list-item--cost {
     font-weight: 700;
     font-size: 35px;
     line-height: 100px;
-    
 }
-.prising-wrapper .prising-wrapper-item__three {
+
+.pricing-wrap__list-item--discription {
+    color: rgba(255, 255, 255, 0.5);
     font-weight: 600;
     font-size: 14px;
     line-height: 50px;
-    color: rgba(255, 255, 255, 0.5);
-    
 }
+

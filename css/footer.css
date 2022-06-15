@@ -1,0 +1,31 @@
+.footer {
+    background-color: rgba(0, 0, 0, 1);
+}
+.footer-wrap {
+    margin: 0 -15px;     
+}
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+}
+.footer-navigation-list {
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 18px 0;  
+}
+
+.footer-navigation-list-item i {
+    color:rgba(189, 189, 189, 1);
+    font-size: 23px;
+}
+.footer-copyright {
+    padding-bottom: 15px;
+}
+.footer-copyright p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5)
+}

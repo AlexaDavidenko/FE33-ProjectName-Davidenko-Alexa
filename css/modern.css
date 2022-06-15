@@ -1,0 +1,100 @@
+.modern {
+    background-image: url(../image/background-1\ 1.png);
+    padding: 100px 0;
+}
+
+.modern-wrap {
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 1;
+    position: relative;
+}
+.modern-title {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-bottom: 42px;
+    text-align: left;
+}
+.modern-title::after {
+    content: "IT";
+    color: rgba(236, 121, 121, 1);
+}
+.modern-wrap-card {
+    margin: 0 15px;
+    max-width: 544px;
+}
+
+.title--position  {
+   text-align: left; 
+}
+.title--position::after {
+    margin-left: 0;
+}
+  
+.section__text--position {
+    width: 270px;
+    margin-bottom: 39px;
+}
+.section__text--position p {
+    text-align: left;
+   
+}
+.section__btn--position  {
+    text-align: left;
+}
+.form {
+    width: 370px;
+    height: 370px;
+    background-color:  #FFFFFF;
+    border-radius: 8px;
+    margin: 0 15px;
+    overflow: hidden;
+}
+.login {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+}
+
+.form__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 56px;
+    text-align: center;
+    color: #333333;
+    
+}
+.form__title span {
+    color: #EC7979;
+}
+.form-item {
+    width: 252px;
+    border-bottom: 2px solid #BDBDBD;
+    padding: 16px 0;
+    margin: 0 auto;
+
+}
+.form-item input {
+    width: 100%;
+    border: none;
+}
+
+.button {
+    background-color:#EC7979;
+    text-align: center;
+}
+.button button{
+    width: 100%;
+    border: none;
+    background-color:#EC7979;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 15px;
+    height: 53px;
+    cursor: pointer;
+}

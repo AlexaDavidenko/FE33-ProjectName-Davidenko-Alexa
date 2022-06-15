@@ -1,0 +1,41 @@
+.contact {
+    padding: 80px 0;
+}
+
+.contact-wrap {
+    margin: 0 -15px;
+}
+.form-contact {
+    margin: 0 15px;
+}
+.form-contact-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+    align-items: stretch;
+}
+.form-item--size {
+    width: 478px;
+    margin-bottom: 35px;
+}
+.form-item--size:last-child {
+    margin-bottom: 0;
+}
+
+.form-item--size textarea {
+    height: 100%;
+    border: none;
+    padding: 16px 0;
+    resize: none;
+    
+}
+.button-align {
+    background-color:  #FFFFFF;
+    text-align: center;
+}
+.button-align button{
+   width: auto;
+   padding: 11px 32px; 
+   cursor: pointer;
+    
+}
